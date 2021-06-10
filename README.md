@@ -77,3 +77,38 @@ factorial=1
 for i in range(1,num + 1):
        factorial = factorial*i
 print("The factorial of",num,"is",factorial)
+
+#10.1. Pattern:
+n=int(input("enter the number:"))
+for i in range (n+1):
+    for j in range (i):
+        print(i,end='')
+    print('')
+    
+#10.2
+n=int(input("enter the number:"))
+for i in range(n):
+    for j in range(n):
+        print(max(i+1,j+1,n-i,n-j),end='')
+    print()   
+    
+#10.3.
+n=int(input("enter the number:"))
+for i in range(0,n):
+    for j in range(0,i+1):
+        print('*', end='')
+    print('\r')
+    
+#10.4.
+n=int(input("Enter the number:"))
+for i in range (n+1,0,-1):
+    for j in range (0,i-1):
+        print("*",end='')
+    print('')
+    
+#10.5.
+n=int(input("enter the number:"))
+for i in range(n):
+    for j in range(n):
+        print('#',end='')
+    print()
