@@ -1,3 +1,12 @@
+#Q1. Write a program to print all the natural numbers from 1 to n (user input). Then print the same in reverse order.
+n = int(input("enter the number : "))
+a = []
+for i in range(n):
+    a.append(i+1)
+print(a)
+a.reverse()
+print(a)
+
 #Q2. Print all odd numbers and even numbers between 1 to 100.
 for i in range(1,100): 
     if i%2==0 :
